@@ -90,6 +90,10 @@
       .first-sec{
         padding-top: 55px;
       }
+
+      .sec-box{
+        width: 330px;
+    }
 }
 
 @media screen and (max-width: 423px){
@@ -115,6 +119,8 @@
     nav ul li a{
         font-size: 15px;
     } 
+
+  
        
 }
 

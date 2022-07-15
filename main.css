@@ -183,6 +183,13 @@ nav .li-get{
   border: 1px solid #48757a49;
   border-radius: 5px;
   padding: 10px 10px 40px 10px;
+  cursor: pointer;
+}
+
+.sec-box:hover{
+  transform: translateY(-10%);
+  transition: all 0.3s ease-in-out;
+  border-top: 2px solid var(--light-blue);
 }
 
 .sec-box h3{
