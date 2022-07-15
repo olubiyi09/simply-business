@@ -51,6 +51,10 @@
 }
 
 @media screen and (max-width: 473px){
+    nav ul li a{
+        font-size: 12px;
+    }
+
     .sec-img img{
         width: 300px;
       }
