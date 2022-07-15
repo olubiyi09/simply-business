@@ -54,6 +54,10 @@
     .sec-img img{
         width: 330px;
       }
+
+      .first-sec{
+        padding-top: 55px;
+      }
 }
 
 @media screen and (max-width: 423px){
