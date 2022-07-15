@@ -149,6 +149,69 @@ nav .li-get{
 }
 
 
+.sec-container{
+  margin-top: 13rem;
+  padding-bottom: 30px;
+}
+
+.sec-content{
+  text-align: center;
+}
+
+.sec-content h2{
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.sec-content p{
+  color: #48757a;
+  margin-bottom: 50px;
+}
+
+.box-container{
+  text-align: center;
+  gap: 1.2rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.4rem;
+}
+
+.sec-box{
+  width: 280px;
+  border: 1px solid #48757a49;
+  border-radius: 5px;
+  padding: 10px 10px 40px 10px;
+}
+
+.sec-box h3{
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.sec-box p{
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.fa{
+  color: var(--light-blue);
+  font-size: 20px;
+  padding: 40px 0 18px 0;
+}
+
+.link{
+  color: var(--blue);
+  font-weight: 600;
+  border-bottom: 1px solid var(--black);
+}
+
+
+
+
+
+
 @keyframes rotate{
   0% {
     transform: translateX(-30px);
