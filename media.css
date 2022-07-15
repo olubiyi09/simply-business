@@ -58,6 +58,10 @@
     .sec-img{
         transform: translateY(43%);
       }
+
+      .down{
+        margin-top: 30px;
+      }
 }
 
 @media screen and (max-width: 403px){
