@@ -50,6 +50,12 @@
       }
 }
 
+@media screen and (max-width: 473px){
+    .sec-img img{
+        width: 300px;
+      }
+}
+
 @media screen and (max-width: 423px){
     nav ul{
         gap: 10px;
