@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 473px){
     .sec-img img{
-        width: 300px;
+        width: 330px;
       }
 }
 
@@ -66,7 +66,7 @@
       }
 
       .down{
-        margin-top: 30px;
+        margin-top: 35px;
       }
 }
 
