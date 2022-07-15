@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 473px){
     .sec-img img{
-        width: 320px;
+        width: 300px;
       }
 
       .first-sec{
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 423px){
     .sec-img img{
-        width: 360px;
+        width: 340px;
       }
 
     nav ul{
