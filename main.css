@@ -27,7 +27,39 @@ body {
 header{
   background: linear-gradient(to right bottom, var(--light-blue), #17d1ff);
   border-radius: 0 0 4rem 4rem;
+  position: relative;
+  z-index: 10;
 }
+
+.animation{
+  position: absolute;
+  background-color: rgba(60, 158, 153, 0.507);
+  width: 150px;
+  height: 150px;
+  top: 7em;
+  left: 2rem;
+  border-radius: 50%;
+  z-index: -1;
+  animation: rotate ease 5s infinite;
+}
+
+.anim1{
+  background-color: rgba(35, 49, 173, 0.5);
+  top: 27rem;
+  left: 15rem;
+  width: 100px;
+  height: 100px;
+}
+
+.anim3{
+  background-color: rgba(30, 218, 243, 0.5);
+  width: 300px;
+  height: 300px;
+  top: 1rem;
+  left: 67rem;
+}
+
+
 
 nav{
   display: flex;
@@ -114,4 +146,27 @@ nav .li-get{
 
 .sec-img img{
   width: 950px;
+}
+
+
+@keyframes rotate{
+  0% {
+    transform: translateX(-30px);
+  }
+
+  30% {
+    transform: translateY(-30px);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+
+  80% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateX(-30px);
+  }
 }
