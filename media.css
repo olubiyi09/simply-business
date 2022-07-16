@@ -94,6 +94,10 @@
       .sec-box{
         width: 330px;
     }
+
+    .wrapper-2 img{
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 423px){

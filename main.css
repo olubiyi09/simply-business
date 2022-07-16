@@ -214,7 +214,48 @@ nav .li-get{
   border-bottom: 1px solid var(--black);
 }
 
+.third-container{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+  background-color: #72727210;
+}
 
+.wrapper-1{
+  width: 34rem;
+}
+
+.wrapper-1 .fas{
+  color: rgb(64, 182, 64);
+  padding-right: 10px;
+  font-size: 21px;
+}
+.wrapper-1 p{
+  color: #48757a;
+  font-size: 18px;
+}
+
+.third-container h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.consult-btn a{
+  background-color: var(--light-blue);
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: all .4s ease-in-out;
+}
+
+.consult-btn a:hover{
+  background-color: #fff;
+  color: var(--blue);
+  font-weight: 700;
+  border: 3px solid var(--light-blue);
+}
 
 
 
