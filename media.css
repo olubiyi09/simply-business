@@ -171,6 +171,11 @@
       .down{
         margin-top: 35px;
       }
+
+
+      .newsletter input{
+        padding: 11px 100px 11px 10px;
+      }
 }
 
 @media screen and (max-width: 414px) {
