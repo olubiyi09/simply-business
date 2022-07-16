@@ -2,6 +2,10 @@
     .first-sec p{
         padding: 0 100px;
       }
+
+      .down{
+        margin-top: 50px;
+      }
 }
 
 @media screen and (max-width: 725px){
@@ -45,6 +49,10 @@
       .sec-img img{
         width: 400px;
       }
+
+      .down{
+        margin-top: 50px;
+      }
 }
 
 @media screen and (max-width: 610px){
@@ -76,6 +84,43 @@
     nav .li-get{
         display: block;
       }
+
+    .fourth-sec{
+      flex-direction: column;
+      background-image: none;
+      padding: 0 10px 20px 0;
+    }
+
+    .img-wrapper img{
+      height: 600px;
+    }
+
+    .content-wrapper{
+      width: 370px;
+      margin-left: 40px;
+      margin-top: 2rem;
+    }
+
+    .dev-box{
+      flex-wrap: wrap;
+    }
+
+    .box{
+      width: 175px;
+    }
+
+    .waiting-sec h1{
+      width: 350px;
+      text-align: center;
+    }
+
+    footer{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    
 }
 
 @media screen and (max-width: 473px){
@@ -109,6 +154,7 @@
 }
 
 @media screen and (max-width: 423px){
+
 
     .sec-img img{
         width: 340px;
