@@ -48,9 +48,6 @@
 }
 
 @media screen and (max-width: 610px){
-    body{
-        overflow: hidden;
-    }
     nav{
         display: block;
         text-align: center;
