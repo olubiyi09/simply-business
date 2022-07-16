@@ -95,9 +95,11 @@
         width: 330px;
     }
 
+    .third-container{
+        line-height: 45px;
+    }
     .wrapper-1{
-        width: 27rem;
-        padding: 0 15px;
+        margin-left: 20px;
     }
 
     .wrapper-2 img{
