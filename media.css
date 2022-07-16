@@ -341,9 +341,10 @@
         font-size: 15px;
     } 
 
-    .newsletter input{
-      padding: 11px 120px 11px 10px;
-    }
+    
+  .newsletter input{
+    padding: 11px 185px 11px 10px;
+  }
   
        
 }
@@ -356,6 +357,6 @@
 
 @media screen and (max-width: 375px){
   .newsletter input{
-    padding: 11px 190px 11px 10px;
+    padding: 11px 185px 11px 10px;
   }
 }
