@@ -331,7 +331,7 @@
       
       .submit-btn a{
         background: var(--light-blue);
-        padding: 10px 156px;
+        padding: 10px 96px;
         border-radius: 3px;
       }
 }
@@ -357,7 +357,7 @@
   
   .submit-btn a{
     background: var(--light-blue);
-    padding: 10px 156px;
+    padding: 10px 96px;
     border-radius: 3px;
   }
   
@@ -381,7 +381,7 @@
     
     .submit-btn a{
       background: var(--light-blue);
-      padding: 10px 156px;
+      padding: 10px 96px;
       border-radius: 3px;
     }
 }
@@ -403,7 +403,7 @@
   
   .submit-btn a{
     background: var(--light-blue);
-    padding: 10px 156px;
+    padding: 10px 96px;
     border-radius: 3px;
   }
 }
